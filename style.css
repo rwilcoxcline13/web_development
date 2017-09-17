@@ -1,0 +1,80 @@
+ body{
+   background-color: rgb(153, 153, 153)
+ }
+
+#Landing {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  background: white
+}
+
+#terminal{
+  margin: 5% 5% 5% 5%;
+  width: 60%;
+  min-height: 500px;
+  background: black;
+  display: inline-block;
+  vertical-align: top;
+  transform: perspective(1000px) rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  border-radius: 15px
+}
+
+
+
+#terminal_border{
+  margin: 0% 0% 5% 0%;
+  width: 100%;
+  min-height: 25px;
+  background: rgb(226, 226, 226);
+  top: 0;
+  transform: perspective(1000px) rotateZ(0deg) rotateX(0deg) rotateY(0deg);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+#text{
+  color: rgb(0, 226, 0);
+  font-family: Courier New, monospace;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  margin: 0 0 0 3%
+
+}
+
+#typed{
+
+  z-index: 100;
+  position: relative;
+  font-family: Courier New, monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  margin: 0 0 0 0%
+
+}
+
+.dir{
+  color: rgb(0, 0, 226)
+}
+
+
+@media (max-width: 768px) {
+  #col1, #col2 {
+    display: block;
+    margin: 5% auto;
+    width: 90%;
+  }
+}
+
+#Interests {
+  position: relative;
+  margin: auto;
+  max-width: 1000px;
+  background: Gray
+}
